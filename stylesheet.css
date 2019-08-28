@@ -1,0 +1,41 @@
+body {
+  color: rgb(50, 80, 200);
+  font-family: arial;
+  margin: 80px;
+  background-color: rgb(50,0,50);
+}
+div {
+  min-height: 80vh;
+  width: 80vw;
+}
+h1,h2 {
+  text-align: center;
+}
+h1 {
+  font-size:5em;
+}
+img {
+  display: flex;
+  justify-content: flex-end;
+  padding: 200px;
+  margin:0 auto;
+  border-radius: 130px;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-family: fantasy;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+li#computer {
+  font-size: 2em;
+  margin-top: 7%
+}
+li.item {
+  background-color: rgb(40,30,20);
+  color: rgb(200,20,12);
+  margin-bottom: 14%
+}
